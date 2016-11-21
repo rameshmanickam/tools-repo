@@ -1,5 +1,5 @@
-#!/bin/bash 
-#export PATH="${tools_repo}"/jenkins/gitflow:$PATH
+#!/bin/sh
+export PATH="${tools_repo}"/jenkins/gitflow:$PATH
 
 if [ -z "${TAG_NAME}" ] ; then
 	printf "\n*** TAG_NAME is blank. BRANCH WILL BE CREATED BASED ON THE LATEST OF MASTER****\n"
